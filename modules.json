@@ -1,0 +1,28 @@
+{
+  "modules": [
+    {
+      "name": "game_system",
+      "code": {
+        "type": "game",
+        "title": "سیستم بازی",
+        "description": "امتیازدهی، گروهی، چندنفره"
+      }
+    },
+    {
+      "name": "premium_system",
+      "code": {
+        "type": "feature",
+        "title": "سیستم پولی",
+        "description": "ویژگی‌های ویژه فقط برای کاربران خاص"
+      }
+    },
+    {
+      "name": "bot_creator",
+      "code": {
+        "type": "bot",
+        "title": "ساخت ربات جدید",
+        "description": "ساخت ربات جدید با ماژول‌ها"
+      }
+    }
+  ]
+}
