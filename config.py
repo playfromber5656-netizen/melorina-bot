@@ -1,6 +1,6 @@
 BOT_NAME = "ملورینا"
 
-OWNER_USERNAME = "YOUR_USERNAME"
+OWNER_USERNAME = "@username"
 
 CHANNELS = [
     ("①", "https://t.me/team_Yuri"),
