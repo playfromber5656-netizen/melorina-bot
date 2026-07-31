@@ -3,11 +3,11 @@ BOT_NAME = "ملورینا"
 OWNER_USERNAME = "@username"
 
 CHANNELS = [
-    ("①", "https://t.me/team_Yuri"),
-    ("②", "https://t.me/pinkii008"),
-    ("③", "https://t.me/Yuriteam77"),
-    ("④", "https://t.me/animeYuri7"),
-    ("⑤", "https://t.me/Yuri90ok"),
+    ("①", "@team_Yuri"),
+    ("②", "@pinkii008"),
+    ("③", "@Yuriteam77"),
+    ("④", "@animeYuri7"),
+    ("⑤", "@Yuri90ok"),
 ]
 
 PERSONALITIES = {
