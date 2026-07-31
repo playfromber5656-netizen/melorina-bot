@@ -1,16 +1,12 @@
-import os
-from dotenv import load_dotenv
+# ========== توکن‌ها (مقادیر واقعی رو بذار) ==========
+BOT_TOKEN = "1234567890:ABCdefGHIjklMNOpqrsTUVwxyz"  # ← توکن رباتت اینجا
+OPENAI_API_KEY = "sk-proj-XXXXXXXXXXXXXXXXXXXXXXXXXXXX"  # ← کلید OpenAI
 
-load_dotenv()
-
-# ========== توکن‌ها ==========
-BOT_TOKEN = os.getenv("BOT_TOKEN")  # ← این باید باشه
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-
-# ========== بقیه تنظیمات ==========
-ADMIN_ID = 8255361263
+# ========== اطلاعات ادمین ==========
+ADMIN_ID = 8255361263  # ← شماره خودت
 ADMIN_USERNAME = "@Yuriii79"
 
+# ========== کانال‌ها ==========
 REQUIRED_CHANNELS = [
     "@animeYuri7",
     "@Yuriteam77",
@@ -19,9 +15,11 @@ REQUIRED_CHANNELS = [
     "@Yuri90ok"
 ]
 
+# ========== اطلاعات کارت بانکی ==========
 CARD_NUMBER = "5892101487858611"
 CARD_NAME = "شیرین نورزایی"
 
+# ========== قیمت‌ها ==========
 PROFILE_PRICES = {
     100: 17000,
     200: 32000,
@@ -35,6 +33,7 @@ PROFILE_PRICES = {
     1000: 100000
 }
 
+# ========== شخصیت ملورینا ==========
 PERSONALITY = """
 تو ملورینا هستی، یک دختر انیمه‌ای کیوت و بامزه! 
 خیلی مهربونی و با احساس حرف می‌زنی.
@@ -46,6 +45,9 @@ PERSONALITY = """
 همیشه با امید و شادی صحبت کن.
 """
 
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
-GOOGLE_CSE_ID = os.getenv("GOOGLE_CSE_ID")
+# ========== Google ==========
+GOOGLE_API_KEY = ""
+GOOGLE_CSE_ID = ""
+
+# ========== لینک‌ها ==========
 CHANNEL_LINK = "https://t.me/animeYuri7"
